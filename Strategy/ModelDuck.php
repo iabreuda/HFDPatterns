@@ -2,7 +2,7 @@
 
 require_once "Duck.php";
 
-class RedHeadDuck extends Duck
+class ModelDuck extends Duck
 {
     public function __construct()
     {
@@ -12,6 +12,6 @@ class RedHeadDuck extends Duck
 
     public function display()
     {
-        echo "I'm a real Red Head duck<br>";
+        echo "I'm a mode duck<br>";
     }
 }

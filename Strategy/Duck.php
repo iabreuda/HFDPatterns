@@ -2,6 +2,7 @@
 
 require_once "FlyNoWay.php";
 require_once "FlyWithWings.php";
+require_once "FlyRocketPowered.php";
 require_once "Quack.php";
 require_once "MuteQuack.php";
 require_once "Squeak.php";
@@ -27,5 +28,15 @@ abstract class Duck
     public function swin()
     {
         echo "All ducks float, even decoys!<br>";
+    }
+
+    public function setFlyBehavior(FlyBehavior $fb)
+    {
+        $this->flyBehavior = $fb;
+    }
+
+    public function setQuackBehavior(QuackBehavior $qb)
+    {
+        $this->quackBehavior = $qb;
     }
 }
