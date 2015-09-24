@@ -2,7 +2,8 @@
 // Defines the methods needed for creating parts 
 // for the robot
 
-interface RobotBuilder {
+interface RobotBuilder 
+{
 	
 	public function buildRobotHead();
 	

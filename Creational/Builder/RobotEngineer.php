@@ -4,8 +4,8 @@
 
 require_once "RobotBuilder.php";
 
-class RobotEngineer {
-	
+class RobotEngineer 
+{
 	private $robotBuilder;
 	
 	// OldRobotBuilder specification is sent to the engineer

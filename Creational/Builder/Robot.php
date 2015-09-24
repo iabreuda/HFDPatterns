@@ -3,8 +3,8 @@
 
 require_once "RobotPlan.php";
 
-class Robot implements RobotPlan{
-
+class Robot implements RobotPlan
+{
 	private $robotHead;
 	private $robotTorso;
 	private $robotArms;

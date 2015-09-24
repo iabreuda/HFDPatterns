@@ -5,8 +5,8 @@
 require_once "RobotBuilder.php";
 require_once "Robot.php";
 
-class OldRobotBuilder implements RobotBuilder {
-
+class OldRobotBuilder implements RobotBuilder 
+{
 	private $robot;
 	
 	public function __construct() 

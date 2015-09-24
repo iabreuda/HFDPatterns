@@ -1,13 +1,10 @@
 <?php
-ini_set('display_errors',1);
-ini_set('display_startup_errors',1);
-error_reporting(-1);
 
 require_once "OldRobotBuilder.php";
 require_once "RobotEngineer.php";
 
-class TestRobotBuilder {
-
+class TestRobotBuilder 
+{
 	public function __construct()
 	{
 		$oldStyleRobot = new OldRobotBuilder();
